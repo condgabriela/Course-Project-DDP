@@ -1,0 +1,54 @@
+Course Project Developing Data Products
+========================================================
+author: Gabriela Conde
+date: 12/20/2020
+autosize: true
+
+Introduction
+========================================================
+
+This presentation is the Developing Data Products Course Project.
+
+The Shiny app pitched at this presentation can be found at:
+
+<https://gabriela-conde.shinyapps.io/myshinyapp/>.
+
+Whereas its code is  available at:
+
+<https://github.com/condgabriela/Course-Project-DDP.git>.
+
+
+
+Description
+========================================================
+
+The main goal of the Shiny app is to run an interactive regression model on the state.77 dataset.
+Additional tasks were performed:
+
+
+- Dataset table
+- Summary information
+- Correlation matrix
+- Interactive residual plot
+- Best model fit
+
+
+Correlation matrix
+========================================================
+
+```{r, echo=FALSE}
+state_info<-as.data.frame(state.x77)
+
+
+```
+
+```{r}
+
+round(cor(state_info),2)
+```
+
+
+Many thanks!!!!!
+========================================================
+
+
